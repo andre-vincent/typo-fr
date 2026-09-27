@@ -1,6 +1,6 @@
 # typo-fr
 
-_Ceci est la version adaptée et optimisée pour la langue française du modèle [Smalworld](https://github.com/anaxite/astro-smallworld) pour le générateur de site statique [Astro](https://astro.build/). Maintenant mis à jour pour Astro 7 ! _
+_Ceci est la version adaptée et optimisée pour la langue française du modèle [Smalworld](https://github.com/anaxite/astro-smallworld) pour le générateur de site statique [Astro](https://astro.build/). Maintenant mis à jour pour Astro 7 !_
 
 J'aime Astro, mais je n'aime pas passer des heures à personnaliser les styles. J'ai adapté ce modèle sur la base de quelques principes clés :
 
