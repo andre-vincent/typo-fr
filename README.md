@@ -1,110 +1,15 @@
-# smallworld
+# typo-fr
 
-_This is a template for the static site generator [Astro](https://astro.build/). Now updated for Astro 7!_
+_Ceci est la version adaptée et optimisée pour la langue française du modèle [Smalworld](https://github.com/anaxite/astro-smallworld) pour le générateur de site statique [Astro](https://astro.build/). Maintenant mis à jour pour Astro 7 ! _
 
-I like Astro, but I don't like spending hours customizing styles. I made this template based on a few key principles:
-
-- I want a basic website with a single-author blog.
-- The website should incorporate accessible and usable elements.
-- Avoid complex systems, prefer simpler ones.
-- Things I see should be easy to understand.
-
-The result is an Astro template that barely uses CSS classes, and maximizes the use of semantic HTML.
-It not only makes for a functional site, but is also great to start learning how Astro works!
-
-## Quickstart
-
-```shell
-npm create astro@latest -- --template anaxite/astro-smallworld
-cd astro-smallworld
-npm run dev
-npm run build
-```
-
-## Less quick start
-
-### Install
-
-1. Install Astro:
-
-```shell
-npm create astro@latest -- --template anaxite/astro-smallworld
-```
-
-2. Install this template's dependencies, if you didn't already:
-
-```shell
-cd <install-directory>
-npm install
-```
-
-3. Run the template in preview mode, or build the final output.
-
-```shell
-npm run dev
-npm run build
-```
-
-4. Optionally, format your source files with Prettier.
-
-```shell
-npm run format
-```
-
-### Configure site settings
-
-Site-wide settings are stored in `src/settings.ts`. This is also where you can set the favicon file name, and Open Graph image settings.
-
-### Configure CSS
-
-The file `src/styles/main.scss` controls which CSS elements Pico CSS includes in the final site. See [the Pico CSS website](https://picocss.com/docs/sass) for information about these elements. 
-
-> A site build may show Pico CSS warnings. These warnings are generally non-fatal and can be ignored. 
-
-### Add and edit pages
-
-Create your static pages as `.astro` files under `src/pages`. The template includes an index page with the most recent blog posts, an About page, and a 404 page.
-
-Use the Base layout to wrap your content in semantically-correct `<main>` tags. The Base layout also takes `title` and `description` attributes that supplement the main site title and description. If you want your content to have a nice border, I recommend you wrap it in `<article>` tags to benefit from Pico CSS styling.
-
-To start with a basic page template, see the file in `src/templates`.
-
-### Edit navigation
-
-To add a page to the site navigation, edit the `PageHeader.astro` component directly.
-
-### Blog
-
-smallworld comes with a blog collection by default. To add a new post, create a Markdown file in the `src/content/blog` directory or one of its subdirectories. The path and file name becomes the post URL.
-
-A post must have `title`, `description` and `pubDate` keywords in its frontmatter. `tags` are optional.
-
-To see a post template, see the file in `src/templates`.
-
-## Notes
-
-For your convenience, I added a few tooling things:
-
-- Any Node.js package manager supported by Astro should work. I include a bit of PNPM config by default.
-- This project comes with a `mise-en-place` configuration file.
-
-## About Astro
-
-Want to learn more about Astro? Check out [their documentation](https://docs.astro.build) or jump into their [Discord server](https://astro.build/chat).
-
-
-# Astro Typo FR
-
-_Ceci est un modèle pour le générateur de site statique [Astro](https://astro.build/). Maintenant mis à jour pour Astro 7 ! _
-
-J'aime Astro, mais je n'aime pas passer des heures à personnaliser les styles. J'ai créé ce modèle sur la base de quelques principes clés :
+J'aime Astro, mais je n'aime pas passer des heures à personnaliser les styles. J'ai adapté ce modèle sur la base de quelques principes clés :
 
 - Je veux un site Web basique avec un blog d'un seul auteur.
 - Le site Web doit inclure des éléments accessibles et utilisables.
 - Évitez les systèmes complexes, préférez les systèmes plus simples.
 - Les choses que je vois devraient être faciles à comprendre.
 
-Le résultat est un modèle Astro qui utilise à peine des classes CSS et maximise l'utilisation du HTML sémantique.
+Le résultat est un modèle Astro qui utilise très peu de classes CSS et maximise l'utilisation du HTML sémantique.
 
 Ce n'est pas seulement un site fonctionnel, mais c'est aussi génial de commencer à apprendre comment fonctionne Astro !
 
@@ -158,3 +63,32 @@ Le fichier `src/styles/main.scss` contrôle les éléments CSS que Pico CSS incl
 > Une construction de site peut afficher des avertissements Pico CSS. Ces avertissements sont généralement non mortels et peuvent être ignorés.
 
 ### Ajouter et modifier des pages
+
+Créez vos pages statiques en tant que fichiers `.astro` sous `src/pages`. Le modèle comprend une page d'index avec les articles de blog les plus récents, une page À propos et une page 404.
+
+Utilisez la mise en page de base pour envelopper votre contenu dans des balises `<main>` sémantiquement correctes. La mise en page de base prend également les attributs `title` et `description` qui complètent le titre et la description du site principal. Si vous voulez que votre contenu ait une belle bordure, je vous recommande de l'envelopper dans des balises `<article>` pour bénéficier du style Pico CSS.
+
+Pour commencer avec un modèle de page de base, consultez le fichier dans `src/templates`.
+
+### Modifier la navigation
+
+Pour ajouter une page à la navigation du site, modifiez directement le composant `PageHeader.astro`.
+
+### Blog
+
+Smallworld est livré avec une collection de blogs par défaut. Pour ajouter un nouveau message, créez un fichier Markdown dans le répertoire `src/content/blog` ou dans l'un de ses sous-répertoires. Le chemin et le nom du fichier deviennent l'URL de la publication.
+
+Un message doit avoir les mots-clés `title`, `description` et `pubDate` dans son frontmatter. `tags` sont facultatifs.
+
+Pour voir un modèle de publication, consultez le fichier dans `src/templates`.
+
+## Notes
+
+Pour votre commodité, j'ai ajouté quelques outils :
+
+- Tout gestionnaire de paquets Node.js pris en charge par Astro devrait fonctionner. J'inclus un peu de configuration PNPM par défaut.
+- Ce projet est livré avec un fichier de configuration `mise en place`.
+
+## À propos d'Astro
+
+Vous voulez en savoir plus sur Astro ? Consultez [leur documentation](https://docs.astro.build) ou sautez sur leur [serveur Discord](https://astro.build/chat).
