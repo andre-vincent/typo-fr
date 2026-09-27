@@ -91,3 +91,70 @@ For your convenience, I added a few tooling things:
 ## About Astro
 
 Want to learn more about Astro? Check out [their documentation](https://docs.astro.build) or jump into their [Discord server](https://astro.build/chat).
+
+
+# Astro Typo FR
+
+_Ceci est un modèle pour le générateur de site statique [Astro](https://astro.build/). Maintenant mis à jour pour Astro 7 ! _
+
+J'aime Astro, mais je n'aime pas passer des heures à personnaliser les styles. J'ai créé ce modèle sur la base de quelques principes clés :
+
+- Je veux un site Web basique avec un blog d'un seul auteur.
+- Le site Web doit inclure des éléments accessibles et utilisables.
+- Évitez les systèmes complexes, préférez les systèmes plus simples.
+- Les choses que je vois devraient être faciles à comprendre.
+
+Le résultat est un modèle Astro qui utilise à peine des classes CSS et maximise l'utilisation du HTML sémantique.
+
+Ce n'est pas seulement un site fonctionnel, mais c'est aussi génial de commencer à apprendre comment fonctionne Astro !
+
+## Démarrage rapide
+
+```shell
+npm create astro@latest -- --template andre-vincent/typo-fr
+cd astro-petit monde
+npm run dev
+npm run build
+```
+
+## Démarrage moins rapide
+
+### Installer
+
+1. Installer Astro :
+
+```shell
+npm créer astro@latest -- --template anaxite/astro-smallworld
+```
+
+2. Installez les dépendances de ce modèle, si vous ne l'avez pas déjà fait :
+
+```shell
+cd <répertoire-installation>
+install npm
+```
+
+3. Exécutez le modèle en mode aperçu ou créez la sortie finale.
+
+```shell
+npm run dev
+npm run build
+```
+
+4. En option, formatez vos fichiers sources avec Prettier.
+
+```shell
+npm run format
+```
+
+### Configurer les paramètres du site
+
+Les paramètres à l'échelle du site sont stockés dans `src/settings.ts`. C'est également là que vous pouvez définir le nom du fichier favicon et les paramètres de l'image Open Graph.
+
+### Configurer le CSS
+
+Le fichier `src/styles/main.scss` contrôle les éléments CSS que Pico CSS inclut dans le site final. Voir [le site Web Pico CSS](https://picocss.com/docs/sass) pour plus d'informations sur ces éléments.
+
+> Une construction de site peut afficher des avertissements Pico CSS. Ces avertissements sont généralement non mortels et peuvent être ignorés.
+
+### Ajouter et modifier des pages
