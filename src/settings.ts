@@ -13,17 +13,18 @@ type Config = {
 };
 
 export const siteConfig: Config = {
-  // Appears in the nav logo, browser title bar, and RSS feed title.
-  title: "smallworld",
-  // Used as the default meta description and OG description on pages without their own.
-  description: "A minimal Astro template styled with Pico CSS",
-  // BCP 47 language tag for the HTML lang attribute (e.g. "en", "de", "fr", "zh-TW").
-  lang: "en",
+// Apparaît dans le logo du navigateur, la barre de titre du navigateur et le titre du flux RSS.
+  title: "Typographie - FR",
+// Utilisé comme méta description par défaut et description OG sur des pages sans la leur.
+  Description : "Un modèle Astro minimal en français stylisé avec Pico CSS",
+
+// Balise de langue BCP 47 pour l'attribut HTML lang (par exemple "en", "de", "fr", "zh-TW").
+  lang: "fr",
   favicon: "/favicon.svg",
   og: {
-    // Replace with your own image (1200×630px recommended). Path is relative to /public.
+// Remplacer par votre propre image (1200×630 px recommandé). Le chemin est relatif à /public.
     image: "/ogImage.png",
-    imageAlt: "Open Graph image for the smallworld Astro template",
+    imageAlt: "Image Open Graph pour le modèle Astro typo-fr",
     imageType: "image/png",
     imageWidth: "1200",
     imageHeight: "630",
