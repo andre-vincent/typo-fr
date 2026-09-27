@@ -16,7 +16,7 @@ export const siteConfig: Config = {
 // Apparaît dans le logo du navigateur, la barre de titre du navigateur et le titre du flux RSS.
   title: "Typographie - FR",
 // Utilisé comme méta description par défaut et description OG sur des pages sans la leur.
-  Description : "Un modèle Astro minimal en français stylisé avec Pico CSS",
+  Description: "Un modèle Astro minimal en français stylisé avec Pico CSS",
 
 // Balise de langue BCP 47 pour l'attribut HTML lang (par exemple "en", "de", "fr", "zh-TW").
   lang: "fr",
